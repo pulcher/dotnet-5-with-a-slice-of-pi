@@ -69,6 +69,8 @@ Save this to last, show cross-compile?
 * Useful dotnet commands
   * dotnet restore
   * dotnet list packages
+  * dotnet build
+  * dotnet publish
   * dotnet other stuff  
 
 ## Getting around a Linux/Unix system
@@ -89,4 +91,16 @@ Save this to last, show cross-compile?
 
 * Talk repo: <https://github.com/pulcher/dotnet-5-with-a-slice-of-pi>
 * Talking head repo: <https://github.com/pulcher/TalkingHead>
-* 
+* some uk guy: <https://www.petecodes.co.uk/install-and-use-microsoft-dot-net-5-with-the-raspberry-pi/>
+* setup debugging on rpi with vscode: <https://docs.microsoft.com/en-us/dotnet/iot/debugging?pivots=vscode>
+* deploy .NET apps on rpi: <https://docs.microsoft.com/en-us/dotnet/iot/deployment>
+* debug .NET core on RPI attach to remote process: <https://docs.microsoft.com/en-us/visualstudio/debugger/remote-debugging-dotnet-core-linux-with-ssh?view=vs-2019>
+* enable ssh on a rpi: <https://www.raspberrypi.org/documentation/remote-access/ssh/>
+* hansleman's stuff: <https://www.hanselman.com/blog/remote-debugging-with-vs-code-on-windows-to-a-raspberry-pi-using-net-core-on-arm>
+* omnisharp ssh setup: <https://github.com/OmniSharp/omnisharp-vscode/wiki/Attaching-to-remote-processes>
+* omnisharp remote debuggin: <https://github.com/OmniSharp/omnisharp-vscode/wiki/Remote-Debugging-On-Linux-Arm>
+* deploying optons: <https://docs.microsoft.com/en-us/dotnet/core/deploying/>
+* dotnet publish docs: <https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-publish>
+* dotnet ready-to-run: <https://docs.microsoft.com/en-us/dotnet/core/deploying/ready-to-run>
+* where to go and get .NET 5: <https://dotnet.microsoft.com/download/dotnet/5.0>
+*
