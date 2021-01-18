@@ -33,6 +33,7 @@ bld/
 
 # don't care about the history
 .History
+.history
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -342,6 +343,7 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .localhistory/
+.history/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
