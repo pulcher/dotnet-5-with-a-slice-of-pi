@@ -66,7 +66,7 @@ ms-vscode-remote.vscode-remote-extensionpack
     ```
 
     ```
-    * Install the pre-eeqs
+    * Install the pre-reqs
     ```
     wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
@@ -86,6 +86,7 @@ export PATH=$PATH:$HOME/dotnet
       ```
   * general system location stuff
 * Remote Debugger
+
 * Prove stuff installed correctly.
 
 ### ssh key gen information:
@@ -145,6 +146,12 @@ total 12
 -rw-rw-r-- 1 ubuntu ubuntu  219 Jan 17 03:36 hello-world.csproj
 drwxrwxr-x 2 ubuntu ubuntu 4096 Jan 17 03:36 obj
   ```
+
+* Make a launch.json file
+  * I installed the c/c++
+    1. went to the run tab
+    1. hit create new lauch.json file .vscode/launch.json
+    1. updated the file   
 * dotnet new console helooIot
   * install GPIO package
   * push a button
