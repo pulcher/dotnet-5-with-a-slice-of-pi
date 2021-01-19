@@ -1,0 +1,30 @@
+{
+   "version": "0.2.0",
+   "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "publish",
+            "program": "~/dotnet/dotnet ",  
+            "args": ["/home/ubuntu/examples/pushBlink/bin/Debug/net5.0/pushBlink.dll"],
+            "cwd": "~/examples/pushBlink",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+            "pipeTransport": {
+                "pipeCwd": "${workspaceRoot}",
+                "pipeProgram": "C:\\Windows\\System32\\OpenSSH\\ssh.exe",
+                "pipeArgs": [
+                    "ubuntu@192.168.1.93"
+                ],
+                "debuggerPath": "~/vsdbg/vsdbg"
+            }
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        }
+    ]
+}
