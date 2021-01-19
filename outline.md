@@ -84,7 +84,31 @@ Package manager installs are only supported on the x64 architecture. Other archi
 export DOTNET_ROOT=$HOME/dotnet
 export PATH=$PATH:$HOME/dotnet
       ```
+
   * general system location stuff
+  ```
+  Step 1
+
+cd /usr/share
+Step 2
+
+rm -rf dotnet
+Step 3
+
+sudo mkdir dotnet
+Step 4
+
+cd ~/Downloads
+Step 5
+
+sudo tar zxf dotnet-sdk-5.0.101-linux-x64.tar.gz -C /usr/share/dotnet
+Step 6
+
+sudo ln -sf /usr/share/dotnet/dotnet /usr/bin/dotnet
+Step 7
+
+dotnet --version
+```
 * Remote Debugger
 
 * Prove stuff installed correctly.
@@ -154,6 +178,7 @@ drwxrwxr-x 2 ubuntu ubuntu 4096 Jan 17 03:36 obj
     1. updated the file   
 * dotnet new console helooIot
   * install GPIO package
+    1. System.Devices.GPIO: <https://www.nuget.org/packages/System.Device.Gpio/>
   * push a button
   * blink LED
   * show pinout graphic

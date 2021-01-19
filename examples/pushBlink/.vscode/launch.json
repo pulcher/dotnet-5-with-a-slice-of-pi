@@ -1,6 +1,23 @@
 {
    "version": "0.2.0",
    "configurations": [
+       {
+           "name": ".NET Core Attach",
+           "type": "coreclr",
+           "request": "attach",
+           "processId": "${command:pickRemoteProcess}",
+           "requireExactSource": false,
+           "pipeTransport": {
+               "pipeCwd": "${workspaceFolder}",
+               "pipeProgram": "C:\\Windows\\System32\\OpenSSH\\ssh.exe",
+               "pipeArgs": [
+                   "-i",
+                   "\\users\\pulcher\\.ssh\\id_rsa_root",
+                   "root@192.168.1.93"
+               ],
+               "debuggerPath": "/home/ubuntu/vsdbg/vsdbg"
+           }
+       },
         {
             "name": ".NET Core Launch (console)",
             "type": "coreclr",
@@ -19,12 +36,6 @@
                 ],
                 "debuggerPath": "~/vsdbg/vsdbg"
             }
-        },
-        {
-            "name": ".NET Core Attach",
-            "type": "coreclr",
-            "request": "attach",
-            "processId": "${command:pickProcess}"
         }
     ]
 }
