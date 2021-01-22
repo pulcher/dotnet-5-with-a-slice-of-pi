@@ -108,7 +108,6 @@ sudo ln -sf /usr/share/dotnet/dotnet /usr/bin/dotnet
 Step 7
 
 dotnet --version
-```
 * Remote Debugger
 
 * Prove stuff installed correctly.
