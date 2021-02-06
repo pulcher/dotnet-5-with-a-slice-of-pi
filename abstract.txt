@@ -1,5 +1,5 @@
-Can you run .NET 5 on a Raspberry Pi?  Yes you can! As well as, most of the popular Linux distros.
-In this presentation I will go over how to get started.  Some of the recommended ways to build, deploy, 
-publish, and even debug those applications on Linux.  Running software is great, but 
-with my IoT focus we will have some hardware involved as well!  Come hang out with me
-and I hope to inspire every one to give this stuff a try!
+Can you run .NET 5 on a Raspberry Pi with it running on Linux? Yes you can! Infact a number of Linux distros 
+are supported.  In this presentation I will go over how to get started on this path.  Some of the recommended 
+ways to build, deploy, publish, and even debug those applications on Linux.  Running software is great, but 
+with my IoT focus we will have some hardware involved as well!  Come hang out with me and I hope to 
+inspire every one to give this stuff a try!
